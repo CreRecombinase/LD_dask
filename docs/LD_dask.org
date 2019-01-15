@@ -1,0 +1,32 @@
+#+TITLE: Dask and LDshrink (and ~org-mode~)
+#+DATE: <2019-01-14 Mon>
+#+AUTHOR: Nicholas Knoblauch
+
+We start by making sure we have ~conda~ (the emacs package)
+
+#+BEGIN_SRC ipython :session :results raw drawer
+import h5py as h5
+import dask as da
+print(h5.__version__)
+import allel
+print(allel.__version__)
+import platform
+print(platform.python_version())
+print(da.__version__)
+#+END_SRC
+
+#+RESULTS:
+:RESULTS:
+# Out[1]:
+:END:
+
+#+BEGIN_SRC ipython :session :results raw drawer
+
+input_f = "/home/nwknoblauch/Dropox/projectile/ldshrink/inst/test_data/reference_genotype.vcf"
+allel.
+#+END_SRC
+
+#+RESULTS:
+:RESULTS:
+# Out[2]:
+:END:
